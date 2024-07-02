@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "neural network approach"
+version = "0.1.0"
+description = "This contains all dependencies for this repository."
+authors = ["Anthony Li <110138399+anthonyli01@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+yfinance = "^0.2.40"
+arch = "^7.0.0"
+matplotlib = "^3.9.0"
+tensorflow = "^2.16.1"
+numpy = "^1.23.5"
+scikit-learn = "^1.5.0"
+jupyter = "^1.0.0"
+scikeras = "^0.13.0"
+tqdm = "^4.66.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
